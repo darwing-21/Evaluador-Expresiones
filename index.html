@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluador de expresiones</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#resolucion-text">Resolucion txt</a></li>
+                    <li><a href="#resolucion-individual">Resolucion individual</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section id="resolucion-text">
+        <label for="file">Ingrese el archivo txt</label>
+        <input type="file" id="file" accept=".txt">
+        <button id="ejecutar">Ejecutar</button>
+        <section id="resultado-section">
+            <!-- El resultado se mostrará aquí -->
+        </section>
+    </section>
+    <section id="resolucion-individual">
+        <label for="text">Ingrese la expresión</label>
+        <input type="text" id="text">
+        <button id="ejecutar-1">Ejecutar</button>
+        <section id="resultado-section-1">
+            <!-- El resultado se mostrará aquí -->
+        </section>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
