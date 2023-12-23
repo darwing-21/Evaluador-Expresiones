@@ -6,32 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluador de expresiones</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./img/icon.webp" />
 </head>
 
 <body>
-    <section>
+    <section class="home">
         <header>
             <nav>
+                <figure>
+                    <img src="./img/icon.webp" alt="Logo">
+                    <h1>LOS TRES <span>CHIFLADOS</span></h1>
+                </figure>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#resolucion-text">Resolucion txt</a></li>
-                    <li><a href="#resolucion-individual">Resolucion individual</a></li>
+                    <li><a href="#resolucion-text">Resolución txt</a></li>
+                    <li><a href="#resolucion-individual">Resolución individual</a></li>
                 </ul>
             </nav>
         </header>
+        <main>
+            <div class="presentacion">
+                <h2>Evaluador de expresiones en Python</h2>
+                <p>Este programa es una herramienta que evalúa expresiones, como por ejemplo "2+2*3+5*a". Comienza
+                    solicitando el valor de 'a' y luego resuelve paso a paso, mostrando el tipo de datos de cada número
+                    involucrado.</p>
+                <p>Además, el software tiene la capacidad de resolver expresiones contenidas en un archivo de texto. En
+                    el archivo, cada expresión debe estar en una línea separada, por ejemplo:</p>
+                <pre>
+                    4+5*a
+                    7+8*10
+                </pre>
+                <p>También puede resolver expresiones individuales ingresadas directamente, como por ejemplo "4*a+99".
+                </p>
+                <address>
+                    Python | EVA| LTC | Eddy | Darwin | Jhonny
+                </address>
+            </div>
+        </main>
     </section>
-    <section id="resolucion-text">
-        <label for="file">Ingrese el archivo txt</label>
-        <input type="file" id="file" accept=".txt">
-        <button id="ejecutar">Ejecutar</button>
+    <section class="txt" id="resolucion-text">
+        <h2>Resolución por archivo txt</h2>
+        <div class="container">
+            <label for="file">Ingrese el archivo txt:</label>
+            <input type="file" id="file" accept=".txt">
+            <button id="ejecutar">Ejecutar</button>
+        </div>
+
         <section id="resultado-section">
             <!-- El resultado se mostrará aquí -->
         </section>
     </section>
-    <section id="resolucion-individual">
-        <label for="text">Ingrese la expresión</label>
-        <input type="text" id="text">
-        <button id="ejecutar-1">Ejecutar</button>
+    <section class="individual" id="resolucion-individual">
+        <h2>Resolución individual</h2>
+        <div class="container">
+            <label for="text">Ingrese la expresión</label>
+            <input type="text" id="text">
+            <button id="ejecutar-1">Ejecutar</button>
+        </div>
         <section id="resultado-section-1">
             <!-- El resultado se mostrará aquí -->
         </section>

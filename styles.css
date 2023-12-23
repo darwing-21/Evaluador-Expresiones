@@ -1,13 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+section.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #13161c;
+}
+
+section.home > header {
+  height: 12vh;
+  padding: 1vh 1vw;
+}
+section.home > header > nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section.home > header > nav > figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #ddd;
+}
+section.home > header > nav > figure > h1 > span {
+  color: #0ae98a;
+}
+section.home > header > nav > figure > img {
+  height: 10vh;
+  margin-right: 1vw;
+}
+section.home > header > nav > ul {
+  width: 50%;
+  padding-right: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: #ddd;
+  list-style: none;
+}
+
+section.home > header > nav > ul > li > a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+section.home > header > nav > ul > li > a:hover {
+  color: #0ae98a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section.home > main {
+  height: 88vh;
+  width: 100vw;
+}
+
+section.home > main > div.presentacion {
+  padding: 5vw;
+  color: #ddd;
+}
+
+section.home > main > div.presentacion > h2 {
+  color: #0ae98a;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+section.home > main > div.presentacion > p,
+section.home > main > div.presentacion > pre {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  font-size: 1.3rem;
+  text-align: center;
+}
+section.home > main > div.presentacion > address {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*Section txt*/
+section.txt {
+  background-color: #1e2229;
+  width: 100vw;
+  color: white;
+  padding: 5vh;
+  min-height: 100vh;
+  height: auto;
+}
+
+section.txt > h2 {
+  color: #0ae98a;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+section.individual {
+  background-color: #13161c;
+  width: 100vw;
+  color: white;
+  padding: 5vh;
+  min-height: 100vh;
+  height: auto;
+}
+
+section.individual > h2 {
+  color: #0ae98a;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+div.container > label {
+  font-size: 1.2rem;
+  margin-right: 1vw;
+}
+div.container > input {
+  width: 50%;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-right: 1vw;
+  color: #0c1633;
+}
+div.container > button {
+  background-color: #fff;
+  border-color: #fff;
+  color: #0c1633;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   margin-top: 2vh;
 }
 
 th,
 td {
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
+}
+
+@media (max-width: 991px) {
+  section.home > main > div.presentacion > p,
+  section.home > main > div.presentacion > pre {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  section.home > main > div.presentacion > address {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-size: 1rem;
+    text-align: center;
+  }
 }

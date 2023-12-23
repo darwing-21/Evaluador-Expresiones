@@ -40,7 +40,6 @@ function handleExecute2() {
   evaluarExpresion(expresion, 0, "resultado-section-1");
 }
 
-
 function obtenerValor(variable, expresion) {
   return prompt(
     "Ingrese el valor de " + variable + " de la " + expresion + " : "
@@ -50,7 +49,7 @@ function obtenerValor(variable, expresion) {
 function evaluarExpresion(expresion, j, id) {
   var expre = convertirAArreglo(expresion);
   var h2 = document.createElement("h2");
-  h2.textContent = "Ejercicio " + (j + 1);
+  h2.textContent = "Ejercicio " + (j + 1) + " : " + expresion;
   var table = document.createElement("table");
   var resultadoSection = document.getElementById(id);
   resultadoSection.appendChild(h2);
