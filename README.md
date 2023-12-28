@@ -56,6 +56,7 @@ int       int       double
 int       double
  18.42
 double
+plaintext
 
 Enlaces del sitio desplegado:
 - [Netlify](https://venerable-strudel-719646.netlify.app/)
