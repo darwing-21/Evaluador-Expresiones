@@ -30,11 +30,20 @@ Este proyecto es un evaluador de expresiones matemáticas diseñado para enseña
 
 ## Ejemplo de Uso
 
-Supongamos que queremos evaluar la expresión matemática: 1+2*3+9+a*b
+### Expresión de Ejemplo
+
+Supongamos que queremos evaluar la expresión matemática: `1+2*3+9+a*b`
+
+```plaintext
   1     +   2     *   3     +   9     +   a     *   b
 int       int       int       int       var       var
+Ingresamos los valores de 'a' y 'b' cuando se solicita:
+plaintext
 Ingrese el valor de a: 1.1
 Ingrese el valor de b: 2.2
+El programa resuelve la expresión paso a paso, mostrando el tipo de datos de cada número involucrado:
+
+plaintext
   1     +   2     *   3     +   9     +    1.1     *    2.2
 int       int       int       int       double       double
   1     +   6     +   9     +    1.1     *    2.2
