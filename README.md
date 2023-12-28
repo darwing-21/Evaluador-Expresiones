@@ -30,18 +30,11 @@ Este proyecto es un evaluador de expresiones matemáticas diseñado para enseña
 
 ## Ejemplo de Uso
 
-### Expresión de Ejemplo
-
-Supongamos que queremos evaluar la expresión matemática: `1+2*3+9+a*b`
-
-```
+Supongamos que queremos evaluar la expresión matemática: 1+2*3+9+a*b
   1     +   2     *   3     +   9     +   a     *   b
 int       int       int       int       var       var
-Ingresamos los valores de 'a' y 'b' cuando se solicita:
 Ingrese el valor de a: 1.1
 Ingrese el valor de b: 2.2
-El programa resuelve la expresión paso a paso, mostrando el tipo de datos de cada número involucrado:
-
   1     +   2     *   3     +   9     +    1.1     *    2.2
 int       int       int       int       double       double
   1     +   6     +   9     +    1.1     *    2.2
@@ -54,7 +47,8 @@ int       int       double
 int       double
  18.42
 double
-```
+
+
 Enlaces del sitio desplegado:
 - [Netlify](https://venerable-strudel-719646.netlify.app/)
 - [GitHub Pages](https://darwing-21.github.io/Evaluador-Expresiones/)
