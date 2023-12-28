@@ -30,8 +30,8 @@ Este proyecto es un evaluador de expresiones matemáticas diseñado para enseña
 
 ## Ejemplo de Uso
 
-Supongamos que queremos evaluar la expresión matemática: 1+2*3+9+a*b
-  1     +   2     *   3     +   9     +   a     *   b
+Supongamos que queremos evaluar la expresión matemática: `1+2*3+9+a*b`
+```  1     +   2     *   3     +   9     +   a     *   b
 int       int       int       int       var       var
 Ingrese el valor de a: 1.1
 Ingrese el valor de b: 2.2
@@ -47,7 +47,7 @@ int       int       double
 int       double
  18.42
 double
-
+```
 
 Enlaces del sitio desplegado:
 - [Netlify](https://venerable-strudel-719646.netlify.app/)
