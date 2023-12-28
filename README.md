@@ -57,6 +57,6 @@ int       double
  18.42
 double
 
-## Enlaces del sitio desplegado
-https://venerable-strudel-719646.netlify.app/
-https://darwing-21.github.io/Evaluador-Expresiones/
+Enlaces del sitio desplegado:
+- [Netlify](https://venerable-strudel-719646.netlify.app/)
+- [GitHub Pages](https://darwing-21.github.io/Evaluador-Expresiones/)
